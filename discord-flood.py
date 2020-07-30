@@ -4,6 +4,9 @@ import random
 import _thread
 from itertools import cycle
 
+#Necessario um arquivo discord_token.txt com os tokens
+#Necessario um arquivo proxy.txt com os proxy's (https)
+
 w = input("Digite o link de convite do servidor:")
 x = input("Digite o id do canal de texto:")
 z = input("Digite sua mensagem:")
