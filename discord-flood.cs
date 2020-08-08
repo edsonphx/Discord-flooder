@@ -73,7 +73,7 @@ namespace Program
             int x0 = -1;
             while(x0 < tokenf1.Length-1)
             {
-                x0 = x0 + 1;
+                x0++;
                 var request1 = new RestRequest(Method.POST);
                 request1.AddHeader("Authorization", tokenf1[x0]);
                 IRestResponse response1 = clientf1.Execute(request1);
@@ -116,7 +116,7 @@ namespace Program
         {
             if(x1 < y0-1)
             {
-                x1 = x1+1;
+                x1++;
                 return x1;
             }
             else
